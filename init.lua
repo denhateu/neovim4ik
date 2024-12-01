@@ -1,2 +1,2 @@
-require('main/settings')
-require('keys/keys')
+require('main.settings')
+require('keys.keys')
