@@ -26,3 +26,10 @@ opt.smartcase = true
 
 -- Подсвечивать найденный текст
 opt.showmatch = true
+
+-- [[ Сплиты ]]
+-- Вертикальные сплиты ставятся справа
+opt.splitright = true
+
+-- Горизонтальные сплиты ставятся справа
+opt.splitbelow = true
