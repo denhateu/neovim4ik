@@ -4,6 +4,9 @@ local opt = vim.opt
 -- Также алиас для vim.global
 local g = vim.g
 
+-- Столбец с цифрами слева
+opt.number = true
+
 -- [[ Табы ]]
 -- Использует пробелы вместо табов
 opt.expandtab = true
