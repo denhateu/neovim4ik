@@ -58,7 +58,7 @@ opt.clipboard = 'unnamedplus'
 vim.cmd [[autocmd BufEnter * set fo-=c fo-=r fo-=o]]
 
 -- Отключает создание бэкапов
-opt.backup = true
+opt.backup = false
 
 -- Отображение команды которая вводится
 opt.showcmd = true
