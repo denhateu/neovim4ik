@@ -12,6 +12,7 @@ opt.fileencoding = 'utf-8'
 -- ЦИФРЫ {{
 -- Столбец с цифрами слева
 opt.number = true
+opt.relativenumber = true
 -- }}
 
 -- ТАБЫ {{
