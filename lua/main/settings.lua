@@ -35,5 +35,8 @@ opt.splitright = true
 opt.splitbelow = true
 
 -- [[ Другие настройки ]]
+-- Использовать системный буфер для вместо встроенного в вим
+opt.clipboard = 'unnamedplus'
+
 -- Не создавать новый коммент на новой строке при переходе с закомментированной строке
 vim.cmd [[autocmd BufEnter * set fo-=c fo-=r fo-=o]]
