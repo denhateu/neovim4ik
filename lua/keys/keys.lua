@@ -1,3 +1,3 @@
 require('keys/alias')
 
-setkey('i', 'jj', '<ESC>')
+setkey('i', 'kj', '<ESC>')
