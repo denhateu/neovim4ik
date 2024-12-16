@@ -1,3 +1,3 @@
-require('keys/alias')
+require('keys.alias')
 
 setkey('i', 'kj', '<ESC>')
