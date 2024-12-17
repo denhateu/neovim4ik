@@ -9,6 +9,10 @@ opt.encoding = 'utf-8'
 opt.fileencoding = 'utf-8'
 -- }}
 
+-- КРАСОТА {{{
+opt.background = "dark"
+-- }}}
+
 -- ЦИФРЫ {{
 -- Столбец с цифрами слева
 opt.number = true
