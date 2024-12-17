@@ -5,4 +5,5 @@ require('config.lazy')
 
 -- Плагины
 require('plugins.nvim-tree')
+require('plugins.telescope')
 require('plugins.gruvbox')
