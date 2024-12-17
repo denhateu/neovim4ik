@@ -17,5 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Настройка lazy.nvim
 require("lazy").setup({
+  { "nvim-tree/nvim-tree.lua" },
   { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ... }
 })

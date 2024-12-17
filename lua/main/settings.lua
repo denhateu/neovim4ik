@@ -10,6 +10,7 @@ opt.fileencoding = 'utf-8'
 -- }}
 
 -- КРАСОТА {{{
+opt.termguicolors = true
 opt.background = "dark"
 -- }}}
 
@@ -79,4 +80,8 @@ autocmd!
 autocmd TextYankPost * silent! lua vim.highlight.on_yank{higroup="IncSearch", timeout=150}
 augroup end
 ]], false)
+
+-- Отключение netrw
+g.loaded_netrw = 1
+g.loaded_netrwPlugin = 1
 -- }}
