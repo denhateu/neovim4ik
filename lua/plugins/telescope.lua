@@ -1,10 +1,4 @@
-require('telescope').setup({
-  pickers = {
-    find_files = {
-      theme = "dropdown"
-    }
-  }
-})
+require('telescope').setup()
 
 -- Настройка горячих клавиш для telescope
 local builtin = require('telescope.builtin')
