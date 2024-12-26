@@ -1,4 +1,10 @@
-require('telescope').setup()
+require('telescope').setup({
+  defaults = {
+    preview = {
+      hide_on_startup = true
+    }
+  }
+})
 
 -- Настройка горячих клавиш для telescope
 local builtin = require('telescope.builtin')
